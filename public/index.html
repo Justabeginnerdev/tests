@@ -1,20 +1,101 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/css/tailwind.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+  <title>Pagina web basica</title>
 </head>
 <body>
-  <nav>
-    <li><a>1</a></li>
-    <li><a>2</a></li>
-    <li><a>3</a></li>
-    <li><a>4</a></li>
-    <li><a>5</a></li>
-  </nav>
-  <h1 class="text-3x1 font-bold underline">
-    Hello world!
-  </h1>
+
+  <div class="head">
+
+      <div class="logo">
+          <a href="a">Logo</a>
+      </div>
+
+      <nav class="navbar">
+          <a href="#">Inicio</a>
+          <a href="#">Nosotros</a>
+          <a href="#">Contacto</a>
+          <a href="#">Productos</a>
+          <a href="#">Precios</a>
+      </nav>
+    
+  </div>
+
+  <header class="content header">
+    <h2 class="title">Inicio</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Debitis reiciendis fugiat voluptatibus eos suscipit vitae 
+      saepe iure corporis eligendi, ipsa repellendus voluptate 
+      eveniet iusto commodi dolorum ipsum rerum obcaecati cupiditate.
+    </p>
+
+    <div class="btn-home">
+        <a href="#" class="btn"> Saber más</a>
+        <a href="#" class="btn"> Saber más</a>
+    </div>
+  </header>
+
+  <section class="content sau">
+
+    <h2 class="title">Producto</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+       Vel, adipisci ducimus est, at eligendi assumenda incidunt 
+       quam rerum cum, harum nostrum sequi? Nemo autem earum 
+       dignissimos recusandae a fugit libero.</p>
+  
+    <div class="box-container">
+      
+      <div class="box">
+        <i class="fab fa-angular"></i>
+        <h3>Lorem</h3>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+      <div class="box">
+        <i class="fab fa-apple"></i>
+        <h3>Lorem</h3>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+      <div class="box">
+        <i class="fab fa-android"></i>
+        <h3>Lorem</h3>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="content about">
+    <h2 class="title">Nosotros</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, suscipit.</p>
+    <a href="#" class="btn"> saber más</a>
+  </section>
+
+  <section class="content price">
+    <article class="contain">
+      <h2 class="title">precio</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Recusandae quo sit, deleniti hic reprehenderit sequi 
+        temporibus labore quasi atque aspernatur.
+      </p>
+      <a href="#" class="btn">Saber precios</a>
+    </article>
+  </section>
+
+  <section class="content contact">
+    <h2 class="title">Contacto</h2>
+    <p>5465665824</p>
+    <figure class="map">
+      <img src="/img/mapa.png" height="220px" width="50%" alt="mapa">
+    </figure>
+  </section>
+
 </body>
 </html>
